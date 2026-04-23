@@ -1,18 +1,17 @@
-// Entry point for the GSC onboarding automation.
-// Boot order: env validation → Slack Bolt app (Socket Mode) → BullMQ worker.
+// Entry point for the GSC onboarding Slack bot (Socket Mode).
+// Boots the Slack app and registers slash command handlers.
+// Verification is handled separately by src/scripts/runVerification.js via GitHub Actions.
 
 require('dotenv').config();
 
 const { App } = require('@slack/bolt');
 const { registerCommands } = require('./src/slack/commands');
-const { startVerifyDomainWorker } = require('./src/jobs/verifyDomain');
 
 const required = [
   'SLACK_BOT_TOKEN',
   'SLACK_SIGNING_SECRET',
   'SLACK_APP_TOKEN',
   'GOOGLE_SERVICE_ACCOUNT_JSON',
-  'REDIS_URL',
 ];
 
 const missing = required.filter((key) => !process.env[key]);
@@ -24,28 +23,14 @@ if (missing.length > 0) {
 const app = new App({
   token: process.env.SLACK_BOT_TOKEN,
   signingSecret: process.env.SLACK_SIGNING_SECRET,
-  // Socket Mode keeps us behind a firewall — no public HTTP endpoint needed.
   socketMode: true,
   appToken: process.env.SLACK_APP_TOKEN,
 });
 
-// Register slash command handlers.
 registerCommands(app);
 
-// Start the BullMQ worker, giving it the Bolt-managed Slack client so it can
-// post messages back into threads when delayed jobs fire.
-const worker = startVerifyDomainWorker(app.client, app.logger);
-
-// Graceful shutdown: let in-flight jobs finish before exiting.
-async function shutdown(signal) {
-  app.logger.info(`Received ${signal}, shutting down gracefully...`);
-  await worker.close();
-  await app.stop();
-  process.exit(0);
-}
-
-process.on('SIGTERM', () => shutdown('SIGTERM'));
-process.on('SIGINT', () => shutdown('SIGINT'));
+process.on('SIGTERM', async () => { await app.stop(); process.exit(0); });
+process.on('SIGINT',  async () => { await app.stop(); process.exit(0); });
 
 (async () => {
   await app.start();

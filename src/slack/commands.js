@@ -1,15 +1,13 @@
 // Registers all Slack slash command handlers on the given Bolt app instance.
-// Currently handles: /gsc-add <domain>
+// On /gsc-add: fetches the verification token and saves the domain to
+// data/pending-domains.json for the GitHub Actions verification script to pick up.
 
+const fs = require('fs');
+const path = require('path');
 const { getVerificationToken } = require('../google/verification');
-const { verifyDomainQueue } = require('../jobs/verifyDomain');
 
-const DELAY_MS = 5.5 * 60 * 60 * 1000; // 5.5 hours
+const PENDING_FILE = path.resolve(__dirname, '../../data/pending-domains.json');
 
-/**
- * Validates that a string is an absolute HTTP/HTTPS URL.
- * Returns a normalized URL string, or null if invalid.
- */
 function parseUrl(raw) {
   const trimmed = (raw || '').trim();
   try {
@@ -21,9 +19,20 @@ function parseUrl(raw) {
   }
 }
 
+function readPending() {
+  try {
+    return JSON.parse(fs.readFileSync(PENDING_FILE, 'utf8'));
+  } catch {
+    return [];
+  }
+}
+
+function writePending(entries) {
+  fs.writeFileSync(PENDING_FILE, JSON.stringify(entries, null, 2));
+}
+
 function registerCommands(app) {
   app.command('/gsc-add', async ({ command, ack, respond, client, logger }) => {
-    // Acknowledge the command immediately — Slack requires a response within 3 s.
     await ack();
 
     const domain = parseUrl(command.text);
@@ -36,19 +45,19 @@ function registerCommands(app) {
       return;
     }
 
-    let metaTag;
+    let token;
     try {
-      metaTag = await getVerificationToken(domain);
+      token = await getVerificationToken(domain);
     } catch (err) {
       logger.error({ err, domain }, 'Failed to fetch verification token');
       await respond({
         response_type: 'ephemeral',
-        text: `Could not fetch a verification token for *${domain}* from Google. Check that the service account has Site Verification API access.\nError: \`${err.message}\``,
+        text: `Could not fetch a verification token for *${domain}* from Google.\nError: \`${err.message}\``,
       });
       return;
     }
 
-    // Post a visible message in the channel so we have a thread to reply to.
+    // Post a visible message so we have a thread anchor for all future updates.
     const initial = await client.chat.postMessage({
       channel: command.channel_id,
       text: `GSC onboarding started for *${domain}*`,
@@ -56,7 +65,6 @@ function registerCommands(app) {
 
     const threadTs = initial.ts;
 
-    // Reply inside that thread with the meta tag and instructions.
     await client.chat.postMessage({
       channel: command.channel_id,
       thread_ts: threadTs,
@@ -65,26 +73,40 @@ function registerCommands(app) {
         '',
         'Paste this into your *Payload domain document* (inside the `<head>` of the site):',
         '```',
-        metaTag,
+        token,
         '```',
-        `Google will automatically verify the domain and add owners in *~5.5 hours*. Make sure the tag is live before then.`,
+        'The bot will automatically check verification twice a day (10 AM and 6 PM IST) and complete onboarding once the tag is detected.',
       ].join('\n'),
     });
 
-    // Enqueue the delayed verification job.
+    // Save the domain to pending-domains.json for the verification script.
     try {
-      await verifyDomainQueue.add(
-        'verify-domain',
-        { domain, channel: command.channel_id, threadTs },
-        { delay: DELAY_MS },
-      );
-      logger.info({ domain, delayMs: DELAY_MS }, 'verify-domain job enqueued');
+      const entries = readPending();
+      const alreadyQueued = entries.some((e) => e.domain === domain);
+      if (!alreadyQueued) {
+        entries.push({
+          domain,
+          token,
+          addedAt: new Date().toISOString(),
+          attempts: 0,
+          slackChannel: command.channel_id,
+          slackThreadTs: threadTs,
+        });
+        writePending(entries);
+        logger.info({ domain }, 'Domain saved to pending-domains.json');
+      } else {
+        await client.chat.postMessage({
+          channel: command.channel_id,
+          thread_ts: threadTs,
+          text: `:information_source: This domain was already in the verification queue. No duplicate added.`,
+        });
+      }
     } catch (err) {
-      logger.error({ err, domain }, 'Failed to enqueue verify-domain job');
+      logger.error({ err, domain }, 'Failed to write pending-domains.json');
       await client.chat.postMessage({
         channel: command.channel_id,
         thread_ts: threadTs,
-        text: `:warning: Could not schedule the automatic verification job. Please manually trigger verification later.\nError: \`${err.message}\``,
+        text: `:warning: Could not save domain to the verification queue.\nError: \`${err.message}\`\nPlease add it manually to \`data/pending-domains.json\`.`,
       });
     }
   });
