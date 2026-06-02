@@ -1,12 +1,13 @@
 // Registers all Slack slash command handlers on the given Bolt app instance.
-// On /gsc-add: fetches the verification token and saves the domain to
-// data/pending-domains.json for the GitHub Actions verification script to pick up.
+// On /gsc-add: fetches the verification token and commits the domain to
+// data/pending-domains.json in the GitHub repo via the GitHub API.
 
-const fs = require('fs');
-const path = require('path');
+const { Octokit } = require('@octokit/rest');
 const { getVerificationToken } = require('../google/verification');
 
-const PENDING_FILE = path.resolve(__dirname, '../../data/pending-domains.json');
+const GITHUB_OWNER = process.env.GITHUB_REPO_OWNER;  // e.g. vyshnavnair-web
+const GITHUB_REPO  = process.env.GITHUB_REPO_NAME;   // e.g. gsc-automation
+const FILE_PATH    = 'data/pending-domains.json';
 
 function parseUrl(raw) {
   const trimmed = (raw || '').trim();
@@ -19,16 +20,26 @@ function parseUrl(raw) {
   }
 }
 
-function readPending() {
-  try {
-    return JSON.parse(fs.readFileSync(PENDING_FILE, 'utf8'));
-  } catch {
-    return [];
-  }
+async function readPendingFromGitHub(octokit) {
+  const { data } = await octokit.repos.getContent({
+    owner: GITHUB_OWNER,
+    repo:  GITHUB_REPO,
+    path:  FILE_PATH,
+  });
+  const content = Buffer.from(data.content, 'base64').toString('utf8');
+  return { entries: JSON.parse(content), sha: data.sha };
 }
 
-function writePending(entries) {
-  fs.writeFileSync(PENDING_FILE, JSON.stringify(entries, null, 2));
+async function writePendingToGitHub(octokit, entries, sha) {
+  const content = Buffer.from(JSON.stringify(entries, null, 2)).toString('base64');
+  await octokit.repos.createOrUpdateFileContents({
+    owner:   GITHUB_OWNER,
+    repo:    GITHUB_REPO,
+    path:    FILE_PATH,
+    message: 'chore: add pending domain [skip ci]',
+    content,
+    sha,
+  });
 }
 
 function registerCommands(app) {
@@ -79,9 +90,11 @@ function registerCommands(app) {
       ].join('\n'),
     });
 
-    // Save the domain to pending-domains.json for the verification script.
+    // Commit the domain to pending-domains.json in the GitHub repo.
     try {
-      const entries = readPending();
+      const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN });
+      const { entries, sha } = await readPendingFromGitHub(octokit);
+
       const alreadyQueued = entries.some((e) => e.domain === domain);
       if (!alreadyQueued) {
         entries.push({
@@ -92,8 +105,8 @@ function registerCommands(app) {
           slackChannel: command.channel_id,
           slackThreadTs: threadTs,
         });
-        writePending(entries);
-        logger.info({ domain }, 'Domain saved to pending-domains.json');
+        await writePendingToGitHub(octokit, entries, sha);
+        logger.info({ domain }, 'Domain committed to pending-domains.json on GitHub');
       } else {
         await client.chat.postMessage({
           channel: command.channel_id,
@@ -102,11 +115,11 @@ function registerCommands(app) {
         });
       }
     } catch (err) {
-      logger.error({ err, domain }, 'Failed to write pending-domains.json');
+      logger.error({ err, domain }, 'Failed to commit pending-domains.json to GitHub');
       await client.chat.postMessage({
         channel: command.channel_id,
         thread_ts: threadTs,
-        text: `:warning: Could not save domain to the verification queue.\nError: \`${err.message}\`\nPlease add it manually to \`data/pending-domains.json\`.`,
+        text: `:warning: Could not save domain to the verification queue.\nError: \`${err.message}\``,
       });
     }
   });
