@@ -52,10 +52,12 @@ async function addOwners(domain, emails) {
   const sv = getSiteVerificationClient();
 
   // Fetch the current resource so we can merge rather than overwrite.
+  // Google may store the identifier URL-encoded, so decode both sides to compare.
   const existing = await sv.webResource.list();
-  const resource = (existing.data.items || []).find(
-    (item) => item.site && item.site.identifier === domain,
-  );
+  const resource = (existing.data.items || []).find((item) => {
+    if (!item.site) return false;
+    return decodeURIComponent(item.site.identifier) === decodeURIComponent(domain);
+  });
 
   if (!resource) {
     throw new Error(`Verified resource not found for ${domain} — cannot add owners`);
@@ -64,10 +66,13 @@ async function addOwners(domain, emails) {
   const currentOwners = resource.owners || [];
   const merged = Array.from(new Set([...currentOwners, ...emails]));
 
+  // The googleapis client URL-encodes the id parameter itself, so we must pass
+  // the decoded URL — passing resource.id (already encoded) causes double-encoding
+  // and a "missing or invalid ID" error from the API.
   await sv.webResource.patch({
-    id: resource.id,
+    id: decodeURIComponent(resource.id),
     requestBody: {
-      ...resource,
+      site: resource.site,
       owners: merged,
     },
   });

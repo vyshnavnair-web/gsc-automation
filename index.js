@@ -1,9 +1,10 @@
 // Entry point for the GSC onboarding Slack bot (Socket Mode).
-// Boots the Slack app and registers slash command handlers.
-// Verification is handled separately by src/scripts/runVerification.js via GitHub Actions.
+// Also starts a minimal HTTP server on PORT for Render's health checks
+// and cron-job.org pings (prevents free-tier spin-down).
 
 require('dotenv').config();
 
+const http = require('http');
 const { App } = require('@slack/bolt');
 const { registerCommands } = require('./src/slack/commands');
 
@@ -29,12 +30,35 @@ const app = new App({
 
 registerCommands(app);
 
-process.on('SIGTERM', async () => { await app.stop(); process.exit(0); });
-process.on('SIGINT',  async () => { await app.stop(); process.exit(0); });
+// Minimal HTTP server — Render requires a port to be bound, and cron-job.org
+// pings this to keep the free instance from spinning down.
+const PORT = process.env.PORT || 3000;
+const server = http.createServer((req, res) => {
+  if (req.url === '/ping') {
+    res.writeHead(200);
+    res.end('pong');
+  } else {
+    res.writeHead(200);
+    res.end('GSC Automation is running');
+  }
+});
+
+process.on('SIGTERM', async () => {
+  server.close();
+  await app.stop();
+  process.exit(0);
+});
+process.on('SIGINT', async () => {
+  server.close();
+  await app.stop();
+  process.exit(0);
+});
 
 (async () => {
   await app.start();
-  app.logger.info('GSC Automation is running (Socket Mode)');
+  server.listen(PORT, () => {
+    app.logger.info(`GSC Automation is running (Socket Mode) — HTTP health check on port ${PORT}`);
+  });
 })().catch((err) => {
   console.error('[startup] Failed to start app:', err);
   process.exit(1);
