@@ -22,5 +22,13 @@
     "attempts": 0,
     "slackChannel": "C09C8PTJHS5",
     "slackThreadTs": "1780471139.885499"
+  },
+  {
+    "domain": "https://www.ticketspetra.com",
+    "token": "<meta name=\"google-site-verification\" content=\"f8BDVwflzJzRQ-anWTOo59VufY_JvPgpgqzD0TC4VP0\" />",
+    "addedAt": "2026-06-03T07:19:35.076Z",
+    "attempts": 0,
+    "slackChannel": "C09C8PTJHS5",
+    "slackThreadTs": "1780471174.480039"
   }
 ]
