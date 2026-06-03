@@ -14,5 +14,13 @@
     "attempts": 0,
     "slackChannel": "C09C8PTJHS5",
     "slackThreadTs": "1780471096.100359"
+  },
+  {
+    "domain": "https://www.tours-johannesburg.com",
+    "token": "<meta name=\"google-site-verification\" content=\"uvaaH2W5FwUbk24pcDdX458eP6-rkUyZIbtaX1LPF5I\" />",
+    "addedAt": "2026-06-03T07:19:00.407Z",
+    "attempts": 0,
+    "slackChannel": "C09C8PTJHS5",
+    "slackThreadTs": "1780471139.885499"
   }
 ]
