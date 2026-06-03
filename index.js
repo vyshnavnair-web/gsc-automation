@@ -34,13 +34,8 @@ registerCommands(app);
 // pings this to keep the free instance from spinning down.
 const PORT = process.env.PORT || 3000;
 const server = http.createServer((req, res) => {
-  if (req.url === '/ping') {
-    res.writeHead(200);
-    res.end('pong');
-  } else {
-    res.writeHead(200);
-    res.end('GSC Automation is running');
-  }
+  res.writeHead(200);
+  res.end();
 });
 
 process.on('SIGTERM', async () => {
