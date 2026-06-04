@@ -51,13 +51,18 @@ async function addOwners(domain, emails) {
 
   const sv = getSiteVerificationClient();
 
-  // Fetch the current resource so we can merge rather than overwrite.
-  // Google may store the identifier URL-encoded, so decode both sides to compare.
-  const existing = await sv.webResource.list();
-  const resource = (existing.data.items || []).find((item) => {
-    if (!item.site) return false;
-    return decodeURIComponent(item.site.identifier) === decodeURIComponent(domain);
-  });
+  // Retry the list lookup a few times — Google's API has a short propagation
+  // delay after verifySite() and the resource may not appear immediately.
+  let resource;
+  for (let attempt = 1; attempt <= 5; attempt++) {
+    const existing = await sv.webResource.list();
+    resource = (existing.data.items || []).find((item) => {
+      if (!item.site) return false;
+      return decodeURIComponent(item.site.identifier) === decodeURIComponent(domain);
+    });
+    if (resource) break;
+    if (attempt < 5) await new Promise((r) => setTimeout(r, 5000)); // wait 5s between retries
+  }
 
   if (!resource) {
     throw new Error(`Verified resource not found for ${domain} — cannot add owners`);
