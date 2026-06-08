@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "domain": "https://www.nairobi-tours.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"HmWhmQC3dFOIoaZ4vY3pyAcMDF241SZ1vtMxvkFTr24\" />",
+    "addedAt": "2026-06-08T02:32:19.123Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1780885938.564869"
+  }
+]
