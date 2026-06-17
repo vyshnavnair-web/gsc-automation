@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "domain": "https://www.capetown-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"LOWY8Mhi8AnftRml_pP5-tvNEbDqcA0Op266nCr43Bc\" />",
+    "addedAt": "2026-06-17T07:30:05.493Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1781681404.864319"
+  }
+]
