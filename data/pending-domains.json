@@ -1,18 +1,1 @@
-[
-  {
-    "domain": "https:www.tours-uluru.com",
-    "token": "<meta name=\"google-site-verification\" content=\"EIHlxTv19yQfI0tNBMGicMm88lf-pZQHQafMqPVT3fY\" />",
-    "addedAt": "2026-06-18T06:59:01.458Z",
-    "attempts": 1,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1781765940.698659"
-  },
-  {
-    "domain": "https://www.tours-uluru.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"EIHlxTv19yQfI0tNBMGicMm88lf-pZQHQafMqPVT3fY\" />",
-    "addedAt": "2026-06-18T09:38:36.431Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1781775515.960659"
-  }
-]
+[]
