@@ -1,18 +1,1 @@
-[
-  {
-    "domain": "http://agadir-tickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"BsV9x5eOhb2ShEG_fAlzMQ9XadgMuQY_7UTZvGiRkBI\" />",
-    "addedAt": "2026-06-19T09:01:57.843Z",
-    "attempts": 1,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1781859717.272609"
-  },
-  {
-    "domain": "https://www.agadir-tickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"BsV9x5eOhb2ShEG_fAlzMQ9XadgMuQY_7UTZvGiRkBI\" />",
-    "addedAt": "2026-06-19T09:05:35.418Z",
-    "attempts": 1,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1781859934.847239"
-  }
-]
+[]
