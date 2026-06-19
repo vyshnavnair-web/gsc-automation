@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "domain": "http://agadir-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"BsV9x5eOhb2ShEG_fAlzMQ9XadgMuQY_7UTZvGiRkBI\" />",
+    "addedAt": "2026-06-19T09:01:57.843Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1781859717.272609"
+  }
+]
