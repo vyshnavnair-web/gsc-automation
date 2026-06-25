@@ -6,5 +6,13 @@
     "attempts": 0,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1782389218.326059"
+  },
+  {
+    "domain": "https://www.vancouver-tours.com",
+    "token": "<meta name=\"google-site-verification\" content=\"sTZ4UsHRPBY0c43mEo-Lw2dhsnvEJsErADfr7rb64Jg\" />",
+    "addedAt": "2026-06-25T12:11:51.100Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1782389510.491669"
   }
 ]
