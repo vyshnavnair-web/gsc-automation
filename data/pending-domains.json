@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "domain": "https://www.toronto-tours.com",
+    "token": "<meta name=\"google-site-verification\" content=\"_jdz3Vj00eP7ywwOloOOyNapMROxuR3XjUBD355hSSs\" />",
+    "addedAt": "2026-06-25T12:06:58.870Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1782389218.326059"
+  }
+]
