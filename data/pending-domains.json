@@ -70,5 +70,13 @@
     "attempts": 0,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1782983231.658309"
+  },
+  {
+    "domain": "https://www.tickets-bahamas.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"QcHAgoansT6CPB67C2FcWHPwBJZ-jPZYYFgtuSNjCDk\" />",
+    "addedAt": "2026-07-02T09:12:09.954Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1782983529.381769"
   }
 ]
