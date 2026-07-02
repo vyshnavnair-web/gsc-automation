@@ -1,17 +1,9 @@
 [
   {
-    "domain": "https://www.tickets-charleston.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"7oPgixNAttuEhZLWvduARvO6dJdq9p2XacprnoEGcWI\" />",
-    "addedAt": "2026-07-02T07:32:12.847Z",
-    "attempts": 1,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1782977530.539359"
-  },
-  {
     "domain": "https://www.page-tours.com/",
     "token": "<meta name=\"google-site-verification\" content=\"Ms61tXywWwS7YXBzdJ_U-W39rhXetRHIgcmw-750OAg\" />",
     "addedAt": "2026-07-02T07:35:00.219Z",
-    "attempts": 1,
+    "attempts": 2,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1782977699.489809"
   },
@@ -19,23 +11,15 @@
     "domain": "https://www.tours-charlotte.com/",
     "token": "<meta name=\"google-site-verification\" content=\"w6lll11ba1xcXvY72biF4oiZhCNpj3AQdnvPebtkHDQ\" />",
     "addedAt": "2026-07-02T08:17:33.614Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1782980252.856899"
-  },
-  {
-    "domain": "https://www.tickets-cincinnati.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"jEyuRDlLMgscRJlYMPnN91H2hQGDp3kjlAQpNSaySdo\" />",
-    "addedAt": "2026-07-02T08:18:31.307Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1782980310.793789"
   },
   {
     "domain": "http://www.kansas-city-tickets.com",
     "token": "<meta name=\"google-site-verification\" content=\"0pctGimamVt9oJarybA0h0b5DnS1G4babyTG5eJBfrs\" />",
     "addedAt": "2026-07-02T08:19:20.877Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1782980360.245909"
   },
@@ -43,7 +27,7 @@
     "domain": "http://www.dallas-tours.com",
     "token": "<meta name=\"google-site-verification\" content=\"lR4gDaC4LVaSfXNySgzaZymOtCwq7-pRA-KvotFOv-k\" />",
     "addedAt": "2026-07-02T08:30:35.966Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1782981035.326169"
   },
@@ -51,32 +35,16 @@
     "domain": "http://www.cleveland-tours.com",
     "token": "<meta name=\"google-site-verification\" content=\"y2tEBbCbYgJrAE1fGKlVxYJORaikmtp7jY5YTIZnJLE\" />",
     "addedAt": "2026-07-02T08:56:32.495Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1782982591.845779"
-  },
-  {
-    "domain": "http://www.phoenix-ticket.com",
-    "token": "<meta name=\"google-site-verification\" content=\"HpU3_IOAtyRsVSpcLRyW-ihlC1AjFQ8Mf7QhXSCVJdk\" />",
-    "addedAt": "2026-07-02T08:57:17.950Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1782982637.311199"
   },
   {
     "domain": "http://www.williamsburg-tickets.com",
     "token": "<meta name=\"google-site-verification\" content=\"gVSLyfvsjhsBjzkPV2DBBWQbgOxH6tt_pOq4YhnEI_o\" />",
     "addedAt": "2026-07-02T09:07:12.207Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1782983231.658309"
-  },
-  {
-    "domain": "https://www.tickets-bahamas.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"QcHAgoansT6CPB67C2FcWHPwBJZ-jPZYYFgtuSNjCDk\" />",
-    "addedAt": "2026-07-02T09:12:09.954Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1782983529.381769"
   }
 ]
