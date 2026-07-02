@@ -14,5 +14,13 @@
     "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1782977699.489809"
+  },
+  {
+    "domain": "https://www.tours-charlotte.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"w6lll11ba1xcXvY72biF4oiZhCNpj3AQdnvPebtkHDQ\" />",
+    "addedAt": "2026-07-02T08:17:33.614Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1782980252.856899"
   }
 ]
