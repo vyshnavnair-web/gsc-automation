@@ -22,5 +22,13 @@
     "attempts": 0,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1782980252.856899"
+  },
+  {
+    "domain": "https://www.tickets-cincinnati.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"jEyuRDlLMgscRJlYMPnN91H2hQGDp3kjlAQpNSaySdo\" />",
+    "addedAt": "2026-07-02T08:18:31.307Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1782980310.793789"
   }
 ]
