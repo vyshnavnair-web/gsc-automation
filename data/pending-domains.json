@@ -46,5 +46,13 @@
     "attempts": 0,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1782981035.326169"
+  },
+  {
+    "domain": "http://www.cleveland-tours.com",
+    "token": "<meta name=\"google-site-verification\" content=\"y2tEBbCbYgJrAE1fGKlVxYJORaikmtp7jY5YTIZnJLE\" />",
+    "addedAt": "2026-07-02T08:56:32.495Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1782982591.845779"
   }
 ]
