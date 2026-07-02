@@ -1,17 +1,9 @@
 [
   {
-    "domain": "https://www.fijitickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"sxIFDGELrsHd2AFVUGB-8oVVey_LIMAt9J-Qe9Dsp5I\" />",
-    "addedAt": "2026-07-01T04:40:10.616Z",
-    "attempts": 2,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1782880810.106029"
-  },
-  {
     "domain": "https://www.tickets-charleston.com/",
     "token": "<meta name=\"google-site-verification\" content=\"7oPgixNAttuEhZLWvduARvO6dJdq9p2XacprnoEGcWI\" />",
     "addedAt": "2026-07-02T07:32:12.847Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1782977530.539359"
   },
@@ -19,7 +11,7 @@
     "domain": "https://www.page-tours.com/",
     "token": "<meta name=\"google-site-verification\" content=\"Ms61tXywWwS7YXBzdJ_U-W39rhXetRHIgcmw-750OAg\" />",
     "addedAt": "2026-07-02T07:35:00.219Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1782977699.489809"
   }
