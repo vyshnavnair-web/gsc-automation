@@ -30,5 +30,13 @@
     "attempts": 0,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1782980310.793789"
+  },
+  {
+    "domain": "http://www.kansas-city-tickets.com",
+    "token": "<meta name=\"google-site-verification\" content=\"0pctGimamVt9oJarybA0h0b5DnS1G4babyTG5eJBfrs\" />",
+    "addedAt": "2026-07-02T08:19:20.877Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1782980360.245909"
   }
 ]
