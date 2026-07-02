@@ -38,5 +38,13 @@
     "attempts": 0,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1782980360.245909"
+  },
+  {
+    "domain": "http://www.dallas-tours.com",
+    "token": "<meta name=\"google-site-verification\" content=\"lR4gDaC4LVaSfXNySgzaZymOtCwq7-pRA-KvotFOv-k\" />",
+    "addedAt": "2026-07-02T08:30:35.966Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1782981035.326169"
   }
 ]
