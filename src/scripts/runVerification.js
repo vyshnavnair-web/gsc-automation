@@ -45,7 +45,8 @@ async function notify(slack, channel, threadTs, text) {
 }
 
 async function processDomain(slack, entry) {
-  const { domain, slackChannel: channel, slackThreadTs: threadTs } = entry;
+  const { domain, slackChannel: channel, slackThreadTs: threadTs, requestedBy } = entry;
+  const mention = requestedBy ? `<@${requestedBy}> ` : '';
   console.log(`[${domain}] Attempt ${entry.attempts + 1}/${MAX_ATTEMPTS}`);
 
   try {
@@ -59,14 +60,14 @@ async function processDomain(slack, entry) {
     if (entry.attempts >= MAX_ATTEMPTS) {
       await notify(
         slack, channel, threadTs,
-        `:x: *Verification failed* for *${domain}* after ${MAX_ATTEMPTS} attempts over ~3 days.\nThe meta tag was never detected. Please check manually: ${GSC_MANUAL_URL}`,
+        `${mention}:x: *Verification failed* for *${domain}* after ${MAX_ATTEMPTS} attempts over ~3 days.\nThe meta tag was never detected. Please check manually: ${GSC_MANUAL_URL}`,
       );
       return null; // signal: remove from queue
     }
 
     await notify(
       slack, channel, threadTs,
-      `:arrows_counterclockwise: Verification attempt ${entry.attempts}/${MAX_ATTEMPTS} failed for *${domain}* — meta tag not detected yet.\nWill retry at the next scheduled run (10 AM or 6 PM IST).`,
+      `${mention}:arrows_counterclockwise: Verification attempt ${entry.attempts}/${MAX_ATTEMPTS} failed for *${domain}* — meta tag not detected yet.\nWill retry at the next scheduled run (10 AM or 6 PM IST).`,
     );
     return entry; // signal: keep in queue with updated attempts
   }
@@ -111,7 +112,7 @@ async function processDomain(slack, entry) {
 
   await notify(
     slack, channel, threadTs,
-    `:tada: *GSC onboarding complete for ${domain}*\n\n${completedLines}${failedLines}`,
+    `${mention}:tada: *GSC onboarding complete for ${domain}*\n\n${completedLines}${failedLines}`,
   );
 
   return null; // signal: remove from queue

@@ -40,6 +40,13 @@ async function verifySite(domain) {
   return true;
 }
 
+// Google's stored identifier doesn't always echo back the exact string we
+// submitted (e.g. trailing slash may be added or dropped), so comparisons
+// strip it before matching rather than relying on byte-for-byte equality.
+function normalizeIdentifier(value) {
+  return decodeURIComponent(value).replace(/\/$/, '');
+}
+
 /**
  * Adds email addresses as owners of an already-verified site resource.
  * Reads the current owners list first to avoid clobbering existing owners.
@@ -58,7 +65,7 @@ async function addOwners(domain, emails) {
     const existing = await sv.webResource.list();
     resource = (existing.data.items || []).find((item) => {
       if (!item.site) return false;
-      return decodeURIComponent(item.site.identifier) === decodeURIComponent(domain);
+      return normalizeIdentifier(item.site.identifier) === normalizeIdentifier(domain);
     });
     if (resource) break;
     if (attempt < 5) await new Promise((r) => setTimeout(r, 5000)); // wait 5s between retries

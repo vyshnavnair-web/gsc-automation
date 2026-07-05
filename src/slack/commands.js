@@ -9,12 +9,19 @@ const GITHUB_OWNER = process.env.GITHUB_REPO_OWNER;  // e.g. vyshnavnair-web
 const GITHUB_REPO  = process.env.GITHUB_REPO_NAME;   // e.g. gsc-automation
 const FILE_PATH    = 'data/pending-domains.json';
 
+// Normalizes any user-typed URL to a single canonical form so that the same
+// exact string is used for verification, GSC registration, sitemap submission,
+// and owner lookups. Canonical form: "https://www.<host>/<path>" — https
+// scheme, www. subdomain, trailing slash, no query/hash.
 function parseUrl(raw) {
   const trimmed = (raw || '').trim();
   try {
     const url = new URL(trimmed);
     if (url.protocol !== 'http:' && url.protocol !== 'https:') return null;
-    return trimmed;
+
+    const host = url.hostname.startsWith('www.') ? url.hostname : `www.${url.hostname}`;
+    const path = url.pathname.endsWith('/') ? url.pathname : `${url.pathname}/`;
+    return `https://${host}${path}`;
   } catch {
     return null;
   }
@@ -46,6 +53,8 @@ function registerCommands(app) {
   app.command('/gsc-add', async ({ command, ack, respond, client, logger }) => {
     await ack();
 
+    const requesterId = command.user_id;
+    const mention = `<@${requesterId}>`;
     const domain = parseUrl(command.text);
 
     if (!domain) {
@@ -63,7 +72,7 @@ function registerCommands(app) {
       logger.error({ err, domain }, 'Failed to fetch verification token');
       await respond({
         response_type: 'ephemeral',
-        text: `Could not fetch a verification token for *${domain}* from Google.\nError: \`${err.message}\``,
+        text: `${mention} Could not fetch a verification token for *${domain}* from Google.\nError: \`${err.message}\``,
       });
       return;
     }
@@ -71,7 +80,7 @@ function registerCommands(app) {
     // Post a visible message so we have a thread anchor for all future updates.
     const initial = await client.chat.postMessage({
       channel: command.channel_id,
-      text: `GSC onboarding started for *${domain}*`,
+      text: `${mention} GSC onboarding started for *${domain}*`,
     });
 
     const threadTs = initial.ts;
@@ -80,7 +89,7 @@ function registerCommands(app) {
       channel: command.channel_id,
       thread_ts: threadTs,
       text: [
-        `:white_check_mark: Verification token fetched for *${domain}*`,
+        `${mention} :white_check_mark: Verification token fetched for *${domain}*`,
         '',
         'Paste this into your *Payload domain document* (inside the `<head>` of the site):',
         '```',
@@ -104,6 +113,7 @@ function registerCommands(app) {
           attempts: 0,
           slackChannel: command.channel_id,
           slackThreadTs: threadTs,
+          requestedBy: requesterId,
         });
         await writePendingToGitHub(octokit, entries, sha);
         logger.info({ domain }, 'Domain committed to pending-domains.json on GitHub');
@@ -111,7 +121,7 @@ function registerCommands(app) {
         await client.chat.postMessage({
           channel: command.channel_id,
           thread_ts: threadTs,
-          text: `:information_source: This domain was already in the verification queue. No duplicate added.`,
+          text: `${mention} :information_source: This domain was already in the verification queue. No duplicate added.`,
         });
       }
     } catch (err) {
@@ -119,7 +129,7 @@ function registerCommands(app) {
       await client.chat.postMessage({
         channel: command.channel_id,
         thread_ts: threadTs,
-        text: `:warning: Could not save domain to the verification queue.\nError: \`${err.message}\``,
+        text: `${mention} :warning: Could not save domain to the verification queue.\nError: \`${err.message}\``,
       });
     }
   });
