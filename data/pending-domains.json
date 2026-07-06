@@ -61,5 +61,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783314853.308169",
     "requestedBy": "U05388Z6YCE"
+  },
+  {
+    "domain": "https://www.alaska-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"glzTILpv85Lm7rs46cTA6F9Hi-LaLO-unIG7mjGGQtA\" />",
+    "addedAt": "2026-07-06T12:10:48.322Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783339847.555999",
+    "requestedBy": "U06971TH0NR"
   }
 ]
