@@ -52,5 +52,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783314719.421219",
     "requestedBy": "U05388Z6YCE"
+  },
+  {
+    "domain": "https://www.basque-country-tours.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"-V9xe0mkIIWwr2jxIwpjPAdztf0uH_lMAFQp0fzab-Q\" />",
+    "addedAt": "2026-07-06T05:13:14.992Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783314794.460099",
+    "requestedBy": "U05388Z6YCE"
   }
 ]
