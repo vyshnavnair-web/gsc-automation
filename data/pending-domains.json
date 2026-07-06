@@ -1,18 +1,9 @@
 [
   {
-    "domain": "https://www.ticketsfigueres.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"n_nY-1b12VR2cR9LaIdQKIz0ws-tZPm7lWZMvf5Kh8M\" />",
-    "addedAt": "2026-07-06T05:01:46.705Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1783314106.124599",
-    "requestedBy": "U05388Z6YCE"
-  },
-  {
     "domain": "https://www.saopaulo-tickets.com/",
     "token": "<meta name=\"google-site-verification\" content=\"-eLkh0q3k5uMb1NiFQz1oWhLsx_GVe7jlW1J1ItJNqg\" />",
     "addedAt": "2026-07-06T05:05:26.993Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783314326.419689",
     "requestedBy": "U05388Z6YCE"
@@ -21,7 +12,7 @@
     "domain": "https://www.tours-ibiza.com/",
     "token": "<meta name=\"google-site-verification\" content=\"JXILYxnVwENpr2S1DOnpRNX_doJsSPtLP69MpRUhUrQ\" />",
     "addedAt": "2026-07-06T05:07:42.854Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783314461.930809",
     "requestedBy": "U05388Z6YCE"
@@ -30,7 +21,7 @@
     "domain": "https://www.benalmadena-tickets.com/",
     "token": "<meta name=\"google-site-verification\" content=\"uDWGcHt1WYXkbrAqw3xm_FSE67RUkS0Je_hmlg2YhQY\" />",
     "addedAt": "2026-07-06T05:09:16.768Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783314556.125999",
     "requestedBy": "U05388Z6YCE"
@@ -39,7 +30,7 @@
     "domain": "https://www.fuerteventura-tours.com/",
     "token": "<meta name=\"google-site-verification\" content=\"qAzOL_YShNZvu7Kj6AIU6bSCkXwhQe-BV4n7bQCsg-Q\" />",
     "addedAt": "2026-07-06T05:10:42.421Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783314641.803499",
     "requestedBy": "U05388Z6YCE"
@@ -48,7 +39,7 @@
     "domain": "https://www.tours-bariloche.com/",
     "token": "<meta name=\"google-site-verification\" content=\"GCSX_TgkQfZ7Z8R1VRm4PWPEB-Wwd62GbzZ3LZj8SKk\" />",
     "addedAt": "2026-07-06T05:11:59.946Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783314719.421219",
     "requestedBy": "U05388Z6YCE"
@@ -57,7 +48,7 @@
     "domain": "https://www.basque-country-tours.com/",
     "token": "<meta name=\"google-site-verification\" content=\"-V9xe0mkIIWwr2jxIwpjPAdztf0uH_lMAFQp0fzab-Q\" />",
     "addedAt": "2026-07-06T05:13:14.992Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783314794.460099",
     "requestedBy": "U05388Z6YCE"
@@ -66,45 +57,9 @@
     "domain": "https://www.fuengirola-tickets.com/",
     "token": "<meta name=\"google-site-verification\" content=\"TMFWGzZ8RpN423gdAfPOPEDdZfucZAnE_iW2q5MbEWI\" />",
     "addedAt": "2026-07-06T05:14:13.987Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783314853.308169",
     "requestedBy": "U05388Z6YCE"
-  },
-  {
-    "domain": "https://www.dallas-tours.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"lR4gDaC4LVaSfXNySgzaZymOtCwq7-pRA-KvotFOv-k\" />",
-    "addedAt": "2026-07-06T05:52:22.856Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1783317142.243069",
-    "requestedBy": "U06971TH0NR"
-  },
-  {
-    "domain": "https://www.cleveland-tours.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"y2tEBbCbYgJrAE1fGKlVxYJORaikmtp7jY5YTIZnJLE\" />",
-    "addedAt": "2026-07-06T05:52:44.761Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1783317164.176189",
-    "requestedBy": "U06971TH0NR"
-  },
-  {
-    "domain": "https://www.phoenix-ticket.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"HpU3_IOAtyRsVSpcLRyW-ihlC1AjFQ8Mf7QhXSCVJdk\" />",
-    "addedAt": "2026-07-06T05:53:04.167Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1783317183.638009",
-    "requestedBy": "U06971TH0NR"
-  },
-  {
-    "domain": "https://www.kansas-city-tickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"0pctGimamVt9oJarybA0h0b5DnS1G4babyTG5eJBfrs\" />",
-    "addedAt": "2026-07-06T05:54:52.350Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1783317291.859229",
-    "requestedBy": "U06971TH0NR"
   }
 ]
