@@ -88,5 +88,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783317164.176189",
     "requestedBy": "U06971TH0NR"
+  },
+  {
+    "domain": "https://www.phoenix-ticket.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"HpU3_IOAtyRsVSpcLRyW-ihlC1AjFQ8Mf7QhXSCVJdk\" />",
+    "addedAt": "2026-07-06T05:53:04.167Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783317183.638009",
+    "requestedBy": "U06971TH0NR"
   }
 ]
