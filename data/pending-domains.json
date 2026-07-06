@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "domain": "https://www.ticketsfigueres.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"n_nY-1b12VR2cR9LaIdQKIz0ws-tZPm7lWZMvf5Kh8M\" />",
+    "addedAt": "2026-07-06T05:01:46.705Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783314106.124599",
+    "requestedBy": "U05388Z6YCE"
+  }
+]
