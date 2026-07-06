@@ -25,5 +25,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783314461.930809",
     "requestedBy": "U05388Z6YCE"
+  },
+  {
+    "domain": "https://www.benalmadena-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"uDWGcHt1WYXkbrAqw3xm_FSE67RUkS0Je_hmlg2YhQY\" />",
+    "addedAt": "2026-07-06T05:09:16.768Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783314556.125999",
+    "requestedBy": "U05388Z6YCE"
   }
 ]
