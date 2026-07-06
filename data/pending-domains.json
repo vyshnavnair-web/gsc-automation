@@ -1,83 +1,11 @@
 [
   {
-    "domain": "https://www.saopaulo-tickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"-eLkh0q3k5uMb1NiFQz1oWhLsx_GVe7jlW1J1ItJNqg\" />",
-    "addedAt": "2026-07-06T05:05:26.993Z",
-    "attempts": 1,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1783314326.419689",
-    "requestedBy": "U05388Z6YCE"
-  },
-  {
-    "domain": "https://www.tours-ibiza.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"JXILYxnVwENpr2S1DOnpRNX_doJsSPtLP69MpRUhUrQ\" />",
-    "addedAt": "2026-07-06T05:07:42.854Z",
-    "attempts": 1,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1783314461.930809",
-    "requestedBy": "U05388Z6YCE"
-  },
-  {
-    "domain": "https://www.benalmadena-tickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"uDWGcHt1WYXkbrAqw3xm_FSE67RUkS0Je_hmlg2YhQY\" />",
-    "addedAt": "2026-07-06T05:09:16.768Z",
-    "attempts": 1,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1783314556.125999",
-    "requestedBy": "U05388Z6YCE"
-  },
-  {
     "domain": "https://www.fuerteventura-tours.com/",
     "token": "<meta name=\"google-site-verification\" content=\"qAzOL_YShNZvu7Kj6AIU6bSCkXwhQe-BV4n7bQCsg-Q\" />",
     "addedAt": "2026-07-06T05:10:42.421Z",
-    "attempts": 1,
+    "attempts": 2,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783314641.803499",
     "requestedBy": "U05388Z6YCE"
-  },
-  {
-    "domain": "https://www.tours-bariloche.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"GCSX_TgkQfZ7Z8R1VRm4PWPEB-Wwd62GbzZ3LZj8SKk\" />",
-    "addedAt": "2026-07-06T05:11:59.946Z",
-    "attempts": 1,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1783314719.421219",
-    "requestedBy": "U05388Z6YCE"
-  },
-  {
-    "domain": "https://www.basque-country-tours.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"-V9xe0mkIIWwr2jxIwpjPAdztf0uH_lMAFQp0fzab-Q\" />",
-    "addedAt": "2026-07-06T05:13:14.992Z",
-    "attempts": 1,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1783314794.460099",
-    "requestedBy": "U05388Z6YCE"
-  },
-  {
-    "domain": "https://www.fuengirola-tickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"TMFWGzZ8RpN423gdAfPOPEDdZfucZAnE_iW2q5MbEWI\" />",
-    "addedAt": "2026-07-06T05:14:13.987Z",
-    "attempts": 1,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1783314853.308169",
-    "requestedBy": "U05388Z6YCE"
-  },
-  {
-    "domain": "https://www.alaska-tickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"glzTILpv85Lm7rs46cTA6F9Hi-LaLO-unIG7mjGGQtA\" />",
-    "addedAt": "2026-07-06T12:10:48.322Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1783339847.555999",
-    "requestedBy": "U06971TH0NR"
-  },
-  {
-    "domain": "https://www.williamsburg-tickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"gVSLyfvsjhsBjzkPV2DBBWQbgOxH6tt_pOq4YhnEI_o\" />",
-    "addedAt": "2026-07-06T12:27:39.518Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1783340858.864079",
-    "requestedBy": "U06971TH0NR"
   }
 ]
