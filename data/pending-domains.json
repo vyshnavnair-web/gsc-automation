@@ -16,5 +16,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783314326.419689",
     "requestedBy": "U05388Z6YCE"
+  },
+  {
+    "domain": "https://www.tours-ibiza.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"JXILYxnVwENpr2S1DOnpRNX_doJsSPtLP69MpRUhUrQ\" />",
+    "addedAt": "2026-07-06T05:07:42.854Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783314461.930809",
+    "requestedBy": "U05388Z6YCE"
   }
 ]
