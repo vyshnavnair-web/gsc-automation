@@ -70,5 +70,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783339847.555999",
     "requestedBy": "U06971TH0NR"
+  },
+  {
+    "domain": "https://www.williamsburg-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"gVSLyfvsjhsBjzkPV2DBBWQbgOxH6tt_pOq4YhnEI_o\" />",
+    "addedAt": "2026-07-06T12:27:39.518Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783340858.864079",
+    "requestedBy": "U06971TH0NR"
   }
 ]
