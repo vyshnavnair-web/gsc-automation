@@ -43,5 +43,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783314641.803499",
     "requestedBy": "U05388Z6YCE"
+  },
+  {
+    "domain": "https://www.tours-bariloche.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"GCSX_TgkQfZ7Z8R1VRm4PWPEB-Wwd62GbzZ3LZj8SKk\" />",
+    "addedAt": "2026-07-06T05:11:59.946Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783314719.421219",
+    "requestedBy": "U05388Z6YCE"
   }
 ]
