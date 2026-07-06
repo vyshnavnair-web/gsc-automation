@@ -7,5 +7,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783314106.124599",
     "requestedBy": "U05388Z6YCE"
+  },
+  {
+    "domain": "https://www.saopaulo-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"-eLkh0q3k5uMb1NiFQz1oWhLsx_GVe7jlW1J1ItJNqg\" />",
+    "addedAt": "2026-07-06T05:05:26.993Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783314326.419689",
+    "requestedBy": "U05388Z6YCE"
   }
 ]
