@@ -1,18 +1,9 @@
 [
   {
-    "domain": "https://www.fuerteventura-tours.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"qAzOL_YShNZvu7Kj6AIU6bSCkXwhQe-BV4n7bQCsg-Q\" />",
-    "addedAt": "2026-07-06T05:10:42.421Z",
-    "attempts": 2,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1783314641.803499",
-    "requestedBy": "U05388Z6YCE"
-  },
-  {
     "domain": "https://www.tours-banff.com/",
     "token": "<meta name=\"google-site-verification\" content=\"8ftl_mFw-AsN9zxeUJY0E6AGTyho72RFjKlb_sarVW8\" />",
     "addedAt": "2026-07-07T06:00:40.446Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783404039.794899",
     "requestedBy": "U06971TH0NR"
