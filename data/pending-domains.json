@@ -25,5 +25,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783493531.965019",
     "requestedBy": "U02V5SE1ZLM"
+  },
+  {
+    "domain": "https://www.groningen-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"bt81DJOZ3dVmavap16fNW3g0_t0fitSyilcTj_3cqhA\" />",
+    "addedAt": "2026-07-08T06:53:08.294Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783493587.337299",
+    "requestedBy": "U02V5SE1ZLM"
   }
 ]
