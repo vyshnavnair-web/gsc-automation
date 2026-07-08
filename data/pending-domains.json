@@ -34,5 +34,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783493587.337299",
     "requestedBy": "U02V5SE1ZLM"
+  },
+  {
+    "domain": "https://www.tours-haarlem.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"jCh3K6XnZXsPgBCXw3AjYixA_GfCi4Imcd___pbgopg\" />",
+    "addedAt": "2026-07-08T06:53:24.642Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783493604.098549",
+    "requestedBy": "U02V5SE1ZLM"
   }
 ]
