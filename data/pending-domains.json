@@ -7,5 +7,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783404039.794899",
     "requestedBy": "U06971TH0NR"
+  },
+  {
+    "domain": "https://www.tours-puglia.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"KUPNOkOcAAnqmeAc-Us6ITc-_nMpLFfrmODFZrBEq78\" />",
+    "addedAt": "2026-07-08T06:40:09.343Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783492808.731739",
+    "requestedBy": "U04Q1D7RAQZ"
   }
 ]
