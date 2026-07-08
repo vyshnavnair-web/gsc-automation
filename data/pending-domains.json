@@ -52,5 +52,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783493631.049129",
     "requestedBy": "U02V5SE1ZLM"
+  },
+  {
+    "domain": "https://www.glasgow-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"h2536K6wJmSkbRgPhCf0m4JU9aJr272zseDymTPMLIM\" />",
+    "addedAt": "2026-07-08T06:54:27.800Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783493666.839819",
+    "requestedBy": "U02V5SE1ZLM"
   }
 ]
