@@ -16,5 +16,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783493513.056329",
     "requestedBy": "U02V5SE1ZLM"
+  },
+  {
+    "domain": "https://www.blackpool-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"XyeaDioEgvk8dT23NQA77XP0Ve2FpVXhgIAK0HrEOUo\" />",
+    "addedAt": "2026-07-08T06:52:12.613Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783493531.965019",
+    "requestedBy": "U02V5SE1ZLM"
   }
 ]
