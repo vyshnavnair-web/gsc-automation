@@ -7,5 +7,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783492808.731739",
     "requestedBy": "U04Q1D7RAQZ"
+  },
+  {
+    "domain": "https://www.utrecht-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"jerIbINan-fCt3g2oq8CXna63GKo3NktS262GzU1CwE\" />",
+    "addedAt": "2026-07-08T06:51:53.783Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783493513.056329",
+    "requestedBy": "U02V5SE1ZLM"
   }
 ]
