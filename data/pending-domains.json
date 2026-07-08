@@ -70,5 +70,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783493681.782029",
     "requestedBy": "U02V5SE1ZLM"
+  },
+  {
+    "domain": "https://www.lyon-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"X4WG7J778YrENd_iXAXwLQTBO6kZRYH2Ai5o3lgUqDs\" />",
+    "addedAt": "2026-07-08T12:58:08.967Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783515488.263029",
+    "requestedBy": "U053KNDBYNQ"
   }
 ]
