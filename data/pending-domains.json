@@ -61,5 +61,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783493666.839819",
     "requestedBy": "U02V5SE1ZLM"
+  },
+  {
+    "domain": "https://www.visit-lochness.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"5fGJDFF923eQZeqGuxDYOadg2dPP-QuLI8dWfoArVME\" />",
+    "addedAt": "2026-07-08T06:54:42.794Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783493681.782029",
+    "requestedBy": "U02V5SE1ZLM"
   }
 ]
