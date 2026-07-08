@@ -43,5 +43,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1783493604.098549",
     "requestedBy": "U02V5SE1ZLM"
+  },
+  {
+    "domain": "https://www.ticketsbrighton.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"TgCXojRCRpveCfeBL8k4UMtULdb8T5rrknqJk3mXXjY\" />",
+    "addedAt": "2026-07-08T06:53:52.258Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1783493631.049129",
+    "requestedBy": "U02V5SE1ZLM"
   }
 ]
