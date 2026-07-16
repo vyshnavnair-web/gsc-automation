@@ -88,5 +88,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200280.074669",
     "requestedBy": "U03M1C71SCS"
+  },
+  {
+    "domain": "https://www.shkoder-tours.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"x9FDUoNzb38CZQ3Eq3ZfI_5a-Iv7cO_VyBH60Jm6oAI\" />",
+    "addedAt": "2026-07-16T11:12:12.318Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1784200331.535369",
+    "requestedBy": "U03M1C71SCS"
   }
 ]
