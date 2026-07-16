@@ -3,25 +3,16 @@
     "domain": "https://www.norway-fjord-tours.com/",
     "token": "<meta name=\"google-site-verification\" content=\"jopZ9r8jLN9EGvGw-DEZ-w_FJej6RDX247Ami0wLLhE\" />",
     "addedAt": "2026-07-16T11:01:01.125Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784199660.534139",
-    "requestedBy": "U03M1C71SCS"
-  },
-  {
-    "domain": "https://www.konstanztickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"TxybliOsTT8UCLG8paBE5nsW8_GEpPMiHpZR1rMYKEw\" />",
-    "addedAt": "2026-07-16T11:03:31.112Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1784199810.376599",
     "requestedBy": "U03M1C71SCS"
   },
   {
     "domain": "https://www.postojnacavetickets.com/",
     "token": "<meta name=\"google-site-verification\" content=\"T-aqx0FWiL4qJKgutMS9K8Z81EBgWp5uXrMiMb-1fTQ\" />",
     "addedAt": "2026-07-16T11:04:35.453Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784199874.807929",
     "requestedBy": "U03M1C71SCS"
@@ -30,7 +21,7 @@
     "domain": "https://www.bled-tours.com/",
     "token": "<meta name=\"google-site-verification\" content=\"S4tmbCjzKjFmXWPoypEubQAQjbakg6skYjpu1WT-Vy8\" />",
     "addedAt": "2026-07-16T11:05:40.992Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784199940.226189",
     "requestedBy": "U03M1C71SCS"
@@ -39,25 +30,16 @@
     "domain": "https://www.crete-experiences.com/",
     "token": "<meta name=\"google-site-verification\" content=\"pH53LDHWFeTJZGLNn9QqdjN1IjOJpt15bn588lA-7So\" />",
     "addedAt": "2026-07-16T11:06:44.708Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200004.133479",
-    "requestedBy": "U03M1C71SCS"
-  },
-  {
-    "domain": "https://www.vloretickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"X_CJ471AXjTxnU486-UqVyjnDyMl400arlOpyOEQ_Xw\" />",
-    "addedAt": "2026-07-16T11:07:26.346Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1784200045.558309",
     "requestedBy": "U03M1C71SCS"
   },
   {
     "domain": "https://www.tourszadar.com/",
     "token": "<meta name=\"google-site-verification\" content=\"7ZLw_8Ri2I0pkOskPxjS77Gm-LATveiMt-8KATfUuX0\" />",
     "addedAt": "2026-07-16T11:08:25.968Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200105.295779",
     "requestedBy": "U03M1C71SCS"
@@ -66,34 +48,16 @@
     "domain": "https://www.helsinki-tickets.com/",
     "token": "<meta name=\"google-site-verification\" content=\"4oAtO0yDNR3OJAPFW4X5j2cktpGNnjheS6pT6lSej_Q\" />",
     "addedAt": "2026-07-16T11:09:22.309Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200161.679609",
-    "requestedBy": "U03M1C71SCS"
-  },
-  {
-    "domain": "https://www.tours-sofia.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"wnTqJm2O3QFVMZq3wklFqum5ObRNVf7IXHQ1SvO3VT4\" />",
-    "addedAt": "2026-07-16T11:10:17.962Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1784200217.192829",
-    "requestedBy": "U03M1C71SCS"
-  },
-  {
-    "domain": "https://www.tourszakynthos.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"MDSCQLujk6l7NHyL9eBWuY-c-napH8yqXhknD4W_qYQ\" />",
-    "addedAt": "2026-07-16T11:11:20.731Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1784200280.074669",
     "requestedBy": "U03M1C71SCS"
   },
   {
     "domain": "https://www.shkoder-tours.com/",
     "token": "<meta name=\"google-site-verification\" content=\"x9FDUoNzb38CZQ3Eq3ZfI_5a-Iv7cO_VyBH60Jm6oAI\" />",
     "addedAt": "2026-07-16T11:12:12.318Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200331.535369",
     "requestedBy": "U03M1C71SCS"
@@ -102,7 +66,7 @@
     "domain": "https://www.geirangertours.com/",
     "token": "<meta name=\"google-site-verification\" content=\"oP8zgcTAThg_YhdicKCcuKquqk2mHEG2U2NVztLL6Co\" />",
     "addedAt": "2026-07-16T11:13:05.568Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200384.403269",
     "requestedBy": "U03M1C71SCS"
@@ -111,7 +75,7 @@
     "domain": "https://www.tours-tallinn.com/",
     "token": "<meta name=\"google-site-verification\" content=\"Bhz2coWsAj9XNsH2IeSpahIOCg3zpZmEPVCvWIDHMkQ\" />",
     "addedAt": "2026-07-16T11:14:02.692Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200441.975819",
     "requestedBy": "U03M1C71SCS"
@@ -120,34 +84,16 @@
     "domain": "https://www.kefalonia-experiences.com/",
     "token": "<meta name=\"google-site-verification\" content=\"eeQEYgoqQVHp5yk2HX3eyYe7Wjp3vjjiNsD7vSVC8P4\" />",
     "addedAt": "2026-07-16T11:14:57.086Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200496.331469",
-    "requestedBy": "U03M1C71SCS"
-  },
-  {
-    "domain": "https://www.tour-cyprus.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"KkFh7-ofuYSE_AMvCS_7SY3TEPwg8qcuLVeNGEkKERQ\" />",
-    "addedAt": "2026-07-16T11:15:42.849Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1784200542.148719",
-    "requestedBy": "U03M1C71SCS"
-  },
-  {
-    "domain": "https://www.cyprus-blue-lagoon.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"aCceVSAU00XqOzRtSmbZt9raYy1dUnIQbVA5j8qJr-M\" />",
-    "addedAt": "2026-07-16T11:16:32.440Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1784200591.756779",
     "requestedBy": "U03M1C71SCS"
   },
   {
     "domain": "https://www.tours-ephesus.com/",
     "token": "<meta name=\"google-site-verification\" content=\"5E7N1Pd8YEoGlu_6BMF462kyHBjFCcTvzW_8xLHQ5Vw\" />",
     "addedAt": "2026-07-16T11:18:03.632Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200683.028179",
     "requestedBy": "U03M1C71SCS"
