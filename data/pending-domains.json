@@ -61,5 +61,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200105.295779",
     "requestedBy": "U03M1C71SCS"
+  },
+  {
+    "domain": "https://www.helsinki-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"4oAtO0yDNR3OJAPFW4X5j2cktpGNnjheS6pT6lSej_Q\" />",
+    "addedAt": "2026-07-16T11:09:22.309Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1784200161.679609",
+    "requestedBy": "U03M1C71SCS"
   }
 ]
