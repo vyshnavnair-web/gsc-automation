@@ -70,5 +70,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200161.679609",
     "requestedBy": "U03M1C71SCS"
+  },
+  {
+    "domain": "https://www.tours-sofia.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"wnTqJm2O3QFVMZq3wklFqum5ObRNVf7IXHQ1SvO3VT4\" />",
+    "addedAt": "2026-07-16T11:10:17.962Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1784200217.192829",
+    "requestedBy": "U03M1C71SCS"
   }
 ]
