@@ -43,5 +43,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200004.133479",
     "requestedBy": "U03M1C71SCS"
+  },
+  {
+    "domain": "https://www.vloretickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"X_CJ471AXjTxnU486-UqVyjnDyMl400arlOpyOEQ_Xw\" />",
+    "addedAt": "2026-07-16T11:07:26.346Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1784200045.558309",
+    "requestedBy": "U03M1C71SCS"
   }
 ]
