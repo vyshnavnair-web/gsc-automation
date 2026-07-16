@@ -7,5 +7,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784199660.534139",
     "requestedBy": "U03M1C71SCS"
+  },
+  {
+    "domain": "https://www.konstanztickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"TxybliOsTT8UCLG8paBE5nsW8_GEpPMiHpZR1rMYKEw\" />",
+    "addedAt": "2026-07-16T11:03:31.112Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1784199810.376599",
+    "requestedBy": "U03M1C71SCS"
   }
 ]
