@@ -106,5 +106,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200384.403269",
     "requestedBy": "U03M1C71SCS"
+  },
+  {
+    "domain": "https://www.tours-tallinn.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"Bhz2coWsAj9XNsH2IeSpahIOCg3zpZmEPVCvWIDHMkQ\" />",
+    "addedAt": "2026-07-16T11:14:02.692Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1784200441.975819",
+    "requestedBy": "U03M1C71SCS"
   }
 ]
