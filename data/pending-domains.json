@@ -79,5 +79,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200217.192829",
     "requestedBy": "U03M1C71SCS"
+  },
+  {
+    "domain": "https://www.tourszakynthos.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"MDSCQLujk6l7NHyL9eBWuY-c-napH8yqXhknD4W_qYQ\" />",
+    "addedAt": "2026-07-16T11:11:20.731Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1784200280.074669",
+    "requestedBy": "U03M1C71SCS"
   }
 ]
