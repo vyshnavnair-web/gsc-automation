@@ -34,5 +34,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784199940.226189",
     "requestedBy": "U03M1C71SCS"
+  },
+  {
+    "domain": "https://www.crete-experiences.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"pH53LDHWFeTJZGLNn9QqdjN1IjOJpt15bn588lA-7So\" />",
+    "addedAt": "2026-07-16T11:06:44.708Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1784200004.133479",
+    "requestedBy": "U03M1C71SCS"
   }
 ]
