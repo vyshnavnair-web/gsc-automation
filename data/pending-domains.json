@@ -115,5 +115,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200441.975819",
     "requestedBy": "U03M1C71SCS"
+  },
+  {
+    "domain": "https://www.kefalonia-experiences.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"eeQEYgoqQVHp5yk2HX3eyYe7Wjp3vjjiNsD7vSVC8P4\" />",
+    "addedAt": "2026-07-16T11:14:57.086Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1784200496.331469",
+    "requestedBy": "U03M1C71SCS"
   }
 ]
