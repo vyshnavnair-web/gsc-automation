@@ -133,5 +133,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200542.148719",
     "requestedBy": "U03M1C71SCS"
+  },
+  {
+    "domain": "https://www.cyprus-blue-lagoon.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"aCceVSAU00XqOzRtSmbZt9raYy1dUnIQbVA5j8qJr-M\" />",
+    "addedAt": "2026-07-16T11:16:32.440Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1784200591.756779",
+    "requestedBy": "U03M1C71SCS"
   }
 ]
