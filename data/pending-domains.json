@@ -124,5 +124,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200496.331469",
     "requestedBy": "U03M1C71SCS"
+  },
+  {
+    "domain": "https://www.tour-cyprus.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"KkFh7-ofuYSE_AMvCS_7SY3TEPwg8qcuLVeNGEkKERQ\" />",
+    "addedAt": "2026-07-16T11:15:42.849Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1784200542.148719",
+    "requestedBy": "U03M1C71SCS"
   }
 ]
