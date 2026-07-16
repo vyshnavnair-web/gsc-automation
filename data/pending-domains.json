@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "domain": "https://www.norway-fjord-tours.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"jopZ9r8jLN9EGvGw-DEZ-w_FJej6RDX247Ami0wLLhE\" />",
+    "addedAt": "2026-07-16T11:01:01.125Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1784199660.534139",
+    "requestedBy": "U03M1C71SCS"
+  }
+]
