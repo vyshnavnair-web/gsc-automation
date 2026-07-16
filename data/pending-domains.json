@@ -16,5 +16,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784199810.376599",
     "requestedBy": "U03M1C71SCS"
+  },
+  {
+    "domain": "https://www.postojnacavetickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"T-aqx0FWiL4qJKgutMS9K8Z81EBgWp5uXrMiMb-1fTQ\" />",
+    "addedAt": "2026-07-16T11:04:35.453Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1784199874.807929",
+    "requestedBy": "U03M1C71SCS"
   }
 ]
