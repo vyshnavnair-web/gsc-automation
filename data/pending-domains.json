@@ -142,5 +142,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1784200591.756779",
     "requestedBy": "U03M1C71SCS"
+  },
+  {
+    "domain": "https://www.tours-ephesus.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"5E7N1Pd8YEoGlu_6BMF462kyHBjFCcTvzW_8xLHQ5Vw\" />",
+    "addedAt": "2026-07-16T11:18:03.632Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1784200683.028179",
+    "requestedBy": "U03M1C71SCS"
   }
 ]
