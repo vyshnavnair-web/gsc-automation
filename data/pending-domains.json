@@ -7,5 +7,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1785158275.782389",
     "requestedBy": "U03L5DE9ATC"
+  },
+  {
+    "domain": "https://www.strasbourg-tours.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"6TDGfBDB0jNjxhvkMr9EI8sReqS16qnk4QD1G6SYOMo\" />",
+    "addedAt": "2026-07-27T13:19:37.691Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1785158377.049829",
+    "requestedBy": "U03L5DE9ATC"
   }
 ]
