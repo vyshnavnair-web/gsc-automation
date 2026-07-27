@@ -52,5 +52,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1785158742.421819",
     "requestedBy": "U03L5DE9ATC"
+  },
+  {
+    "domain": "https://www.sharjah-tours.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"iLyJWhJmvfdQlixw44n93L6kyAEVeD8Fi8mbXHpJ34k\" />",
+    "addedAt": "2026-07-27T13:30:09.986Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1785159009.248809",
+    "requestedBy": "U078UMJR1CL"
   }
 ]
