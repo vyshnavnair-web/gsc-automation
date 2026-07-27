@@ -43,5 +43,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1785158643.668129",
     "requestedBy": "U03L5DE9ATC"
+  },
+  {
+    "domain": "https://www.mauritius-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"5m8P10IDVV7tunBMuIU4mcpmVBKXSd-XtjRyOhXH1P4\" />",
+    "addedAt": "2026-07-27T13:25:43.135Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1785158742.421819",
+    "requestedBy": "U03L5DE9ATC"
   }
 ]
