@@ -3,7 +3,7 @@
     "domain": "https://www.tours-monaco.com/",
     "token": "<meta name=\"google-site-verification\" content=\"ybzOlG4AfdFmZwkn5x6SQuVppIOEx_hMXIy7ru93CrM\" />",
     "addedAt": "2026-07-27T13:17:56.505Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1785158275.782389",
     "requestedBy": "U03L5DE9ATC"
@@ -12,43 +12,25 @@
     "domain": "https://www.strasbourg-tours.com/",
     "token": "<meta name=\"google-site-verification\" content=\"6TDGfBDB0jNjxhvkMr9EI8sReqS16qnk4QD1G6SYOMo\" />",
     "addedAt": "2026-07-27T13:19:37.691Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1785158377.049829",
-    "requestedBy": "U03L5DE9ATC"
-  },
-  {
-    "domain": "https://www.auvergnetickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"JShgRgeQT7tH9a9DjtBfwbHquaw9eACcqh5pKF06EQ4\" />",
-    "addedAt": "2026-07-27T13:21:52.020Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1785158511.355599",
     "requestedBy": "U03L5DE9ATC"
   },
   {
     "domain": "https://www.toursluxor.com/",
     "token": "<meta name=\"google-site-verification\" content=\"QCsATonW7_rXEbq-UC7zoZQQzkjXrRJ66kPH5CSHIrc\" />",
     "addedAt": "2026-07-27T13:22:31.595Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1785158551.056109",
     "requestedBy": "U078UMJR1CL"
   },
   {
-    "domain": "https://www.lyon-tickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"X4WG7J778YrENd_iXAXwLQTBO6kZRYH2Ai5o3lgUqDs\" />",
-    "addedAt": "2026-07-27T13:24:04.234Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1785158643.668129",
-    "requestedBy": "U03L5DE9ATC"
-  },
-  {
     "domain": "https://www.mauritius-tickets.com/",
     "token": "<meta name=\"google-site-verification\" content=\"5m8P10IDVV7tunBMuIU4mcpmVBKXSd-XtjRyOhXH1P4\" />",
     "addedAt": "2026-07-27T13:25:43.135Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1785158742.421819",
     "requestedBy": "U03L5DE9ATC"
@@ -57,7 +39,7 @@
     "domain": "https://www.sharjah-tours.com/",
     "token": "<meta name=\"google-site-verification\" content=\"iLyJWhJmvfdQlixw44n93L6kyAEVeD8Fi8mbXHpJ34k\" />",
     "addedAt": "2026-07-27T13:30:09.986Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1785159009.248809",
     "requestedBy": "U078UMJR1CL"
