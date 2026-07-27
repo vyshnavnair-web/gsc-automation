@@ -25,5 +25,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1785158511.355599",
     "requestedBy": "U03L5DE9ATC"
+  },
+  {
+    "domain": "https://www.toursluxor.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"QCsATonW7_rXEbq-UC7zoZQQzkjXrRJ66kPH5CSHIrc\" />",
+    "addedAt": "2026-07-27T13:22:31.595Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1785158551.056109",
+    "requestedBy": "U078UMJR1CL"
   }
 ]
