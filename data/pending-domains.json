@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "domain": "https://www.tours-monaco.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"ybzOlG4AfdFmZwkn5x6SQuVppIOEx_hMXIy7ru93CrM\" />",
+    "addedAt": "2026-07-27T13:17:56.505Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1785158275.782389",
+    "requestedBy": "U03L5DE9ATC"
+  }
+]
