@@ -30,6 +30,20 @@ const app = new App({
 
 registerCommands(app);
 
+// Crash the process if Socket Mode connection fails — Render will auto-restart it
+app.error(async (error) => {
+  console.error('[Socket Mode error]', error);
+  if (error.message && /socket|connection|disconnect/i.test(error.message)) {
+    console.error('[Fatal] Socket Mode connection lost. Exiting to force restart.');
+    process.exit(1);
+  }
+});
+
+process.on('uncaughtException', (error) => {
+  console.error('[Uncaught exception]', error);
+  process.exit(1);
+});
+
 // Minimal HTTP server — Render requires a port to be bound, and cron-job.org
 // pings this to keep the free instance from spinning down.
 const PORT = process.env.PORT || 3000;
