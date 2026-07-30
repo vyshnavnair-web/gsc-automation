@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "domain": "https://www.amman-tours.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"s3fH68Uo9Sv_l-J6yeTzWqjlAWJKAtJW5lVuAt8Yv4Y\" />",
+    "addedAt": "2026-07-30T06:36:05.911Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1785393365.215879",
+    "requestedBy": "U059VLV2BUL"
+  }
+]
