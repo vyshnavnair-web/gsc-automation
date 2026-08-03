@@ -34,5 +34,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1785744573.515379",
     "requestedBy": "U0737GUD5FB"
+  },
+  {
+    "domain": "https://www.cairo-ticket.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"KqGO-qyDHSkUqAEu1GEhAQELUBsa41IXB4uP6Lxwl4s\" />",
+    "addedAt": "2026-08-03T08:13:30.715Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1785744810.151859",
+    "requestedBy": "U04P49J1KS9"
   }
 ]
