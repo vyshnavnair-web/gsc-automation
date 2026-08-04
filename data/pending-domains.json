@@ -3,7 +3,7 @@
     "domain": "https://www.shenzhen-tickets.com/*/",
     "token": "<meta name=\"google-site-verification\" content=\"mp3QcuXDdeRzhx1nIakIHDiaSN0HCvzbRwVsmEo7CLU\" />",
     "addedAt": "2026-08-03T08:04:24.168Z",
-    "attempts": 1,
+    "attempts": 2,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1785744263.461739",
     "requestedBy": "U0737GUD5FB"
@@ -12,36 +12,9 @@
     "domain": "https://www.chongqing-tickets.com/*/",
     "token": "<meta name=\"google-site-verification\" content=\"fXgsvOT3WddqXtWIcw6JiYL0uAXo4IpM2-LOWjGDPWQ\" />",
     "addedAt": "2026-08-03T08:05:30.490Z",
-    "attempts": 1,
+    "attempts": 2,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1785744329.945669",
     "requestedBy": "U0737GUD5FB"
-  },
-  {
-    "domain": "https://www.shenzhen-tickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"mp3QcuXDdeRzhx1nIakIHDiaSN0HCvzbRwVsmEo7CLU\" />",
-    "addedAt": "2026-08-03T08:07:51.021Z",
-    "attempts": 1,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1785744470.155119",
-    "requestedBy": "U0737GUD5FB"
-  },
-  {
-    "domain": "https://www.chongqing-tickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"fXgsvOT3WddqXtWIcw6JiYL0uAXo4IpM2-LOWjGDPWQ\" />",
-    "addedAt": "2026-08-03T08:09:34.070Z",
-    "attempts": 1,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1785744573.515379",
-    "requestedBy": "U0737GUD5FB"
-  },
-  {
-    "domain": "https://www.guangzhou-tickets.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"rM_21QphLQYSWl2FE1XA7_2J200wyCnBoNfns7BEVdo\" />",
-    "addedAt": "2026-08-03T11:52:53.262Z",
-    "attempts": 1,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1785757972.522769",
-    "requestedBy": "U059VLV2BUL"
   }
 ]
