@@ -7,5 +7,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1786449173.149599",
     "requestedBy": "U05388Z6YCE"
+  },
+  {
+    "domain": "https://www.penha-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"YXP4z8YjUMVqZE7oaRQ2S8gCZ6c7ETt7xRGD-GT2ur4\" />",
+    "addedAt": "2026-08-11T11:53:38.931Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1786449218.375939",
+    "requestedBy": "U05388Z6YCE"
   }
 ]
