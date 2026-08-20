@@ -7,5 +7,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1787206319.691779",
     "requestedBy": "U059VLV2BUL"
+  },
+  {
+    "domain": "https://www.tickets-bilbao.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"9TfALkVB6wyFT9Orct3DjEXqeoijgSJUpLMPPKXdSIs\" />",
+    "addedAt": "2026-08-20T06:12:13.781Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1787206337.665809",
+    "requestedBy": "U059VLV2BUL"
   }
 ]
