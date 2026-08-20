@@ -3,27 +3,9 @@
     "domain": "https://www.tours-alicante.com/",
     "token": "<meta name=\"google-site-verification\" content=\"-_Hpmk2Jfq0omXmnYIaE45Zh3CyguPkYXv7-8bmh4CQ\" />",
     "addedAt": "2026-08-20T06:11:55.787Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1787206319.691779",
-    "requestedBy": "U059VLV2BUL"
-  },
-  {
-    "domain": "https://www.tickets-bilbao.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"9TfALkVB6wyFT9Orct3DjEXqeoijgSJUpLMPPKXdSIs\" />",
-    "addedAt": "2026-08-20T06:12:13.781Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1787206337.665809",
-    "requestedBy": "U059VLV2BUL"
-  },
-  {
-    "domain": "https://www.tours-montreal.com/",
-    "token": "<meta name=\"google-site-verification\" content=\"WysH3AAVqqi7HicFbtxpHtwkMq38vUQw_WobshBc7pY\" />",
-    "addedAt": "2026-08-20T06:12:26.367Z",
-    "attempts": 0,
-    "slackChannel": "C0B81SA038T",
-    "slackThreadTs": "1787206350.216189",
     "requestedBy": "U059VLV2BUL"
   }
 ]
