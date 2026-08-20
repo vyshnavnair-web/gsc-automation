@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "domain": "https://www.tours-alicante.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"-_Hpmk2Jfq0omXmnYIaE45Zh3CyguPkYXv7-8bmh4CQ\" />",
+    "addedAt": "2026-08-20T06:11:55.787Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1787206319.691779",
+    "requestedBy": "U059VLV2BUL"
+  }
+]
