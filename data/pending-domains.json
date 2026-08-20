@@ -16,5 +16,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1787206337.665809",
     "requestedBy": "U059VLV2BUL"
+  },
+  {
+    "domain": "https://www.tours-montreal.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"WysH3AAVqqi7HicFbtxpHtwkMq38vUQw_WobshBc7pY\" />",
+    "addedAt": "2026-08-20T06:12:26.367Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1787206350.216189",
+    "requestedBy": "U059VLV2BUL"
   }
 ]
