@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "domain": "https://www.hermanus-tours.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"eV5I0ldkGepYV2He_yjrJ7iocjAQ5apTKWimwaAqN0A\" />",
+    "addedAt": "2026-09-07T08:09:31.356Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1788768570.686179",
+    "requestedBy": "U078UMJR1CL"
+  }
+]
