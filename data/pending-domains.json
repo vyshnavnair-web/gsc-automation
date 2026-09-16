@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "domain": "https://www.chengdu-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"QbhfFlr4ICKyp4otc1yfHa4BfcUJjhaV06KKtOhh820\" />",
+    "addedAt": "2026-09-16T06:25:58.563Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1789539957.334129",
+    "requestedBy": "U04P49J1KS9"
+  }
+]
