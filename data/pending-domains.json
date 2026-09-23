@@ -3,7 +3,7 @@
     "domain": "https://www.teanau-tickets.com/",
     "token": "<meta name=\"google-site-verification\" content=\"B8Vu5bxl607B6J7heJ2tupeK-cI0h_CcK-Gb0nIu2vU\" />",
     "addedAt": "2026-09-23T06:44:27.263Z",
-    "attempts": 0,
+    "attempts": 1,
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1790145866.551849",
     "requestedBy": "U06CE8LN5TQ"
