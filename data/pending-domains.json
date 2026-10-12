@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "domain": "https://www.toulouse-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"rcHhIEAjf_wjenfVbRppwZlTZ-u0oHHh0TH1VGC3UsQ\" />",
+    "addedAt": "2026-10-12T08:32:18.379Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1791793937.680509",
+    "requestedBy": "U03L5DE9ATC"
+  }
+]
