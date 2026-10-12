@@ -7,5 +7,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1791793937.680509",
     "requestedBy": "U03L5DE9ATC"
+  },
+  {
+    "domain": "https://www.reimstickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"jepxiI1V1YzV1AQCbTzuMSP2Vtoq-r1e1TIYYyV647s\" />",
+    "addedAt": "2026-10-12T08:32:44.828Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1791793964.211209",
+    "requestedBy": "U03L5DE9ATC"
   }
 ]
