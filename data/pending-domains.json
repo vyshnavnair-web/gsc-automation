@@ -16,5 +16,14 @@
     "slackChannel": "C0B81SA038T",
     "slackThreadTs": "1791793964.211209",
     "requestedBy": "U03L5DE9ATC"
+  },
+  {
+    "domain": "https://www.metz-tickets.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"JXnmFjtHA-v0k1AVeFTVUPX6EEZrBVCB-oub8UuLuuE\" />",
+    "addedAt": "2026-10-12T08:33:05.744Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1791793984.978879",
+    "requestedBy": "U03L5DE9ATC"
   }
 ]
