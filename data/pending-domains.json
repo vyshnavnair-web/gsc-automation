@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "domain": "https://www.masai-mara-safaris.com/",
+    "token": "<meta name=\"google-site-verification\" content=\"oq7wLsSQl2Bwt7a9fiYAaxmc9QqOAoEK0fr97DNmNgc\" />",
+    "addedAt": "2026-10-14T10:09:44.990Z",
+    "attempts": 0,
+    "slackChannel": "C0B81SA038T",
+    "slackThreadTs": "1791972584.176399",
+    "requestedBy": "U06CE8LN5TQ"
+  }
+]
